@@ -1,0 +1,31 @@
+#navbar-header{
+    background-color: gainsboro;
+}
+
+#nav-list{
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#menu-heading{
+    margin: 25px auto;
+}
+.text-section{
+    background-color: grey;
+}
+
+@media screen and (max-device-width: 575px)
+ {
+    .text-section{
+        width: 75%;
+        margin: auto;
+    }
+}
